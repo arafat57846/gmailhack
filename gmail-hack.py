@@ -1,6 +1,4 @@
-# *  Author  : Akash Black Hat
-# *  GitHub  : https://github.com/akashblackhat
-# *  YouTube : TECHNICAL AKASH SKILLS
+# *  Author  : BLUE SKY BD
 # *  Telegram: https://t.me/blueskybd
 # *  License : MIT
 
@@ -19,7 +17,7 @@ RAND = random.choice(colors)
 
 GMAIL_PORT = '587'
 
-# BLUE SKY BANER
+# BLUE SKY BD BANER
 def artwork():
     print("\n")
     print('''\033[32m
@@ -37,9 +35,7 @@ def artwork():
  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝        
 ⚠️WARNING: I AM NOT RESPONSIBLE FOR THE MISUSE OF THIS TOOL !
 *******************************************************
-* Author   : Akash Black Hat
-* GitHub   : https://github.com/akashblackhat
-* YouTube  : TECHNICAL AKASH SKILLS
+* Author   : BLUE SKY BD
 * Telegram : https://t.me/blueskybd
 * Password : passworld.txt
 *************USE VPN OR TOR SERVICE********************
@@ -82,6 +78,5 @@ for password in passswfile:
     except smtplib.SMTPAuthenticationError:
         print("[-] Password Is Wrong. %s " % password)
 
-# Author  : Akash Black Hat
-# Updated by BLUE SKY BD
+# Author  : BLUE SKY BD
 # Telegram: https://t.me/blueskybd
